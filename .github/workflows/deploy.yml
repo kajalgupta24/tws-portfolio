@@ -17,5 +17,5 @@ jobs:
         aws-region: ap-south-1
 
     - name: Deploy static site to s3 bucket
-      run: aws s3 sync . s3//tws-portfolio --delete
+      run: aws s3 sync . s3//tws-kajal-portfolio --delete
     
